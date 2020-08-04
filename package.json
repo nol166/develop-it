@@ -1,0 +1,14 @@
+{
+    "name": "develop-it",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:nol166/develop-it.git",
+    "author": "<jmccamb@gmail.com>",
+    "license": "MIT",
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": false,
+        "singleQuote": true
+    }
+}
