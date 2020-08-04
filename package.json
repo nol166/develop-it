@@ -10,5 +10,17 @@
         "tabWidth": 4,
         "semi": false,
         "singleQuote": true
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "jest": "^26.2.2",
+        "sqlite3": "^5.0.0"
+    },
+    "scripts": {
+        "start": "node server.js",
+        "test": "jest",
+        "migrate": "sqlite3 db/election.db < db/schema.sql",
+        "seed": "sqlite3 db/election.db < db/seeds.sql",
+        "db": "sqlite3 db/election.db"
     }
 }
