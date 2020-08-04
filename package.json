@@ -1,7 +1,7 @@
 {
     "name": "develop-it",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "server.js",
     "repository": "git@github.com:nol166/develop-it.git",
     "author": "<jmccamb@gmail.com>",
     "license": "MIT",
